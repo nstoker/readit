@@ -4,7 +4,7 @@ class CreateStories < ActiveRecord::Migration[8.1]
       t.string :name
       t.string :link
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
